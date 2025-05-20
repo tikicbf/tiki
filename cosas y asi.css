@@ -1,0 +1,137 @@
+html{
+		scroll-behavior: smooth;
+}
+body{
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 1036px 690px;
+	background-position: top;
+	background-attachment: scroll;
+}
+
+h2 .title{
+	margin-top: 90px;
+	text-align: center;
+	font-size: 15px;
+	color: whitesmoke;
+}
+
+.txtal{
+	font-family: ;
+	margin-top: 10%;
+	text-align: center;
+	color: whitesmoke;
+	background-color: #1F1F1F;
+	display: inline-table;
+	text-decoration: revert;
+}
+.tablear{
+	text-align: center;
+	color: whitesmoke;
+	margin-top: 10%;
+
+}
+.section{
+	margin-top: 10%;
+}
+.tablapos{
+	color: whitesmoke;
+	background-color: #1F1F1F;
+	margin-left: 10%;
+	display: flow-root;
+	margin-right: 15%;
+}
+.txtc{
+
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+	display: block;
+	margin-bottom: 5%;
+}
+
+iframe{
+	margin-left: 37%;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'nunito', sans-serif;
+	font-size: 20px;
+}
+
+.header{
+	background-color: #1F1F1F;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	height: 85px;
+	padding: 5px 10%;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.header .cosas img{
+	margin-top: 10px;
+	height: 50px;
+	width: auto;
+	transition: all 0.3;
+}
+.header .cosas{
+	cursor: pointer;
+}
+.header .cosas img:hover{
+	transform: scale(1,1.5);
+}
+.nav{
+	display: flex;
+	text-decoration: none;
+	justify-content: space-between;
+}
+
+.nav-links{
+	list-style: none;
+	color: white;
+	display: flex;
+	margin: 0 10px;
+	padding: 2;
+	text-decoration: none;
+}
+.nav-item{
+	text-decoration: none;
+	margin: 0 10px;
+	line-height: 70px;
+	color: whitesmoke;
+}
+.a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 12px;
+	border-radius: 3px;
+}
+.a:hover{
+	background-color: #5B5B5B;
+	color: #850000;
+	transition: 0.3s;
+}
+section[id]{
+	scroll-margin-top: 100px;
+}
+.secep{
+	text-align: justify;
+	margin-left: 10%;
+	margin-right: 15%;
+	color: whitesmoke;
+	background-color: #1F1F1F;
+}
+.imgep{
+	margin-top: 10%;
+	margin-left: 37%;
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
